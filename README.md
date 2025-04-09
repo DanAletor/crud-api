@@ -218,7 +218,7 @@ For security, the Lambda function is granted the `DynamoDBCrudPolicy` IAM role, 
 
 The Lambda function uses the following environment variable:
 
-- **TABLE_NAME**: The name of the DynamoDB table. It is set to `crud-items`.
+- **TABLE_NAME**: The name of the DynamoDB table. It is set on `github-actions`.
 
 ## Resources Defined
 
