@@ -10,7 +10,7 @@ Globals:
     MemorySize: 128
     Environment:
       Variables:  
-        TABLE_NAME: !Ref ItemsTable # Dynamically set the table name
+        TABLE_NAME: !Ref ItemsTable 
 
 Resources:
   DDBHandlerFunction:
@@ -49,7 +49,7 @@ Resources:
       PrimaryKey:
         Name: id
         Type: String
-      TableName: http-crud-tutorial-items
+      TableName: crud-items
 
 Outputs:
   ApiEndpoint:
