@@ -112,7 +112,7 @@ Below are examples for testing the CRUD operations.
 ```bash
 curl -X PUT https://nachrf8gvc.execute-api.eu-west-3.amazonaws.com/items \
 -H "Content-Type: application/json" \
--d '{"id": 1, "name": "netzence", "price": 500}'
+-d '{"id": "1", "name": "netzence", "price": 500}'
 ```
 
 #### Example using Postman:
@@ -123,7 +123,7 @@ curl -X PUT https://nachrf8gvc.execute-api.eu-west-3.amazonaws.com/items \
   - Paste the following JSON:
   ```json
   {
-    "id": 1,
+    "id": "1",
     "name": "netzence",
     "price": 500
   }
@@ -174,7 +174,7 @@ curl -X GET https://nachrf8gvc.execute-api.eu-west-3.amazonaws.com/items/1
 ```bash
 curl -X PUT https://nachrf8gvc.execute-api.eu-west-3.amazonaws.com/items \
 -H "Content-Type: application/json" \
--d '{"id": 1, "name": "netzence", "price": 600}'
+-d '{"id": "1", "name": "netzence", "price": 600}'
 ```
 
 #### Example using Postman:
@@ -185,7 +185,7 @@ curl -X PUT https://nachrf8gvc.execute-api.eu-west-3.amazonaws.com/items \
   - Paste the following JSON:
   ```json
   {
-    "id": 1,
+    "id": "1",
     "name": "netzence",
     "price": 600
   }
