@@ -1,6 +1,6 @@
 
 
-# Serverless CRUD API Deployment
+# Serverless Netzence CRUD API Deployment
 
 ## Overview
 
@@ -45,8 +45,8 @@ Before you begin, ensure that the following tools are installed and configured:
 Clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/your-repository.git
-cd your-repository
+git clone https://github.com/DanAletor/crud-api.git
+cd crud-api
 ```
 
 ### 2. Build the Application
