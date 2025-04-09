@@ -35,6 +35,9 @@ jobs:
         run: |
           pip install aws-sam-cli
 
+      - name: Build Application with AWS SAM
+        run: |
+          sam build
   deploy:
     runs-on: ubuntu-latest
     needs: install
