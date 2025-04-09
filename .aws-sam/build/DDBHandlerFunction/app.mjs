@@ -11,7 +11,7 @@ const client = new DynamoDBClient({});
 
 const dynamo = DynamoDBDocumentClient.from(client);
 
-const tableName = "http-crud-tutorial-items";
+const tableName = "crud-items";
 
 export const handler = async (event, context) => {
   let body;

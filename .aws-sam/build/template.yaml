@@ -52,7 +52,7 @@ Resources:
       PrimaryKey:
         Name: id
         Type: String
-      TableName: http-crud-tutorial-items
+      TableName: crud-items
 Outputs:
   ApiEndpoint:
     Description: The invoke URL for our HTTP API
